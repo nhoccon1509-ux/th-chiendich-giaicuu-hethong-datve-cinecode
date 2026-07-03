@@ -1,0 +1,26 @@
+// =======================
+// TEST CASE và Kiểm tra kết quả
+// =======================
+
+// Đặt ghế
+bookSeat(0, 2); // Thành công
+bookSeat(0, 1); // Đã được đặt
+
+// Thêm khách
+addToWaitlist("PhamVanD");
+
+// In kết quả
+console.log("Sơ đồ ghế:");
+console.log(cinemaSeats);
+
+console.log("Danh sách chờ:");
+console.log(waitlistArray);
+
+//test report:
+Đặt ghế (0, 2) thành công.
+Ghế (0, 1) đã được đặt.
+Thêm PhamVanD vào danh sách chờ.
+Sơ đồ ghế:
+(5) [Array(10), Array(10), Array(10), Array(10), Array(10)]
+Danh sách chờ:
+(3) ['NguyenVanA', 'TranThiB', 'LeVanC']
